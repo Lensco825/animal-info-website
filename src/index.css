@@ -1,13 +1,39 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Lora:ital@0;1&family=Poppins:wght@300;400&family=Tilt+Neon&family=Unbounded&display=swap');
+
+html, body, .App {
+  width: 100%;
+  height: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.App {
+font-family: Poppins;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
 }
+
+.AnimalSelection {
+  width: 80%;
+  height: 20rem;
+  display: flex;
+  gap: 10px;
+  border: solid;
+  margin-top: 20%;
+  margin-left: 10%;
+}
+
+.AnimalSelection > div {
+  border-radius: 10px;
+  border: solid;
+  overflow: hidden;
+}
+
+.AnimalSelection img {
+  object-fit: cover;
+  min-width: 50px;
+  max-width: 300px;
+}
+
