@@ -8,15 +8,17 @@ var images = {
 }
 
 
+
 function App() {
   return (
     <div className="App">
       <nav>
         <p>Home</p>
         <p>About</p>
-        <ion-icon name="moon-outline" className='darkToggle'></ion-icon>
-        <ion-icon name="logo-github"></ion-icon>
+        <ion-icon name="moon-outline" className='Toggle'></ion-icon>
+        <a href="https://github.com/Lensco825/animal-info-website"><ion-icon name="logo-github"></ion-icon></a>
       </nav>
+      <main>
       <h1>Animal Info</h1>
       <h2>Learn more about some of these animals!</h2>
     <div className="AnimalSelection">
@@ -27,6 +29,7 @@ function App() {
      <div className="dolphins"><img src={images.dolphin} alt='dolphin'></img></div>
      <div className="cats"><img src={images.cat} alt='cat'></img></div>
     </div>
+    </main>
     </div>
   );
 }
