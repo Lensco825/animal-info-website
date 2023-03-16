@@ -1,6 +1,6 @@
 import "./index.css";
 import {NAV} from './nav.js'
-
+import { InfoTemplate } from "./info.js";
 var images = {
   owl: 'https://images.unsplash.com/photo-1543549790-8b5f4a028cfb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
   bear: 'https://i.pinimg.com/736x/e6/a1/77/e6a17731d8ab49113dc4f1a61a2a0e8e.jpg',
@@ -26,6 +26,7 @@ function App() {
      <div className="cats"><img src={images.cat} alt='cat'></img></div>
     </div>
     </main>
+    <InfoTemplate heading="Owls" desc="Check out these flying birds" coverUrl="https://th.bing.com/th/id/R.836e15e9b23973686f8b5a5399d22a53?rik=E6WbJlIEWq0xIA&pid=ImgRaw&r=0"/>
     </div>
   );
 }

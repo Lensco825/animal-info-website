@@ -1,24 +1,22 @@
 import React from "react";
 import { NAV } from "./nav.js";
-class InfoTemplate extends React.Component {
-    constructor(props) {
-        super(props)
-    }
 
-    var header = this.props.header;
-    var desc = this.props.desc;
-    var url = this.props.url;
-
+export class InfoTemplate extends React.Component {
+    
    render() {
     return (
         <div className="info">
             <NAV />
-            <div className="cover" style={{backgroundImage: url}}>
-                <h1>{header}</h1>
-                <h1>{desc}</h1>
+            <div className="cover" style={{backgroundImage: this.props.coverUrl}}>
+                <h1>{this.props.header}</h1>
+                <h1>{this.props.desc}</h1>
             </div>
             <main>
-
+              <p></p>
+              <br></br>
+              <p></p>
+              <br></br>
+              <p></p>
             </main>
         </div>
     );
