@@ -1,4 +1,5 @@
 import "./index.css";
+import {NAV} from './nav.js'
 
 var images = {
   owl: 'https://images.unsplash.com/photo-1543549790-8b5f4a028cfb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
@@ -12,12 +13,7 @@ var images = {
 function App() {
   return (
     <div className="App">
-      <nav>
-        <p>Home</p>
-        <p>About</p>
-        <ion-icon name="moon-outline" className='Toggle'></ion-icon>
-        <a href="https://github.com/Lensco825/animal-info-website"><ion-icon name="logo-github"></ion-icon></a>
-      </nav>
+      <NAV />
       <main>
       <h1>Animal Info</h1>
       <h2>Learn more about some of these animals!</h2>
