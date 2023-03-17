@@ -11,14 +11,30 @@ export class InfoTemplate extends React.Component {
                 <h1>{this.props.header}</h1>
                 <h1>{this.props.desc}</h1>
             </div>
-            <main>
-              <p></p>
-              <br></br>
-              <p></p>
-              <br></br>
-              <p></p>
-            </main>
+            <div className="content">
+                {this.props.content}
+            </div>
         </div>
     );
    }
+}
+
+
+export function Content(props) {
+
+    return (
+        <main>
+        <p>{props.firstText}</p>
+        <br></br>
+        <p>{props.secondText}</p>
+        <img src={props.firstImage} alt='huh'></img>
+        <br></br>
+        <p>{props.thirdText}</p>
+        <p>{props.fourthText}</p>
+        <img src={props.secondImage} alt='huh'></img>
+        <p>{props.fifthText}</p>
+        <p>{props.sixthText}</p>
+        <img src={props.thirdImage} alt='huh'></img>
+        </main>
+    )
 }
