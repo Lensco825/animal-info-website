@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Lora:ital@0;1&family=Poiret+One&family=Poppins:wght@300;400&family=Red+Hat+Display:wght@300;400&family=Tilt+Neon&family=Unbounded&display=swap');
+
+.information {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Red hat display;
+}
+
+img {
+    width: 300px;
+    float: right;
+    transition: 0.3s;
+}
+
+
+.text {
+padding: 0 200px 0 200px;
+}
+
