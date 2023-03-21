@@ -31,7 +31,7 @@ align-items: center;
   border: solid;
 }
 
-.AnimalSelection img {
+.coverImage {
   object-fit: cover;
   min-width: 50px;
   max-width: 300px;
@@ -50,7 +50,7 @@ nav > p, ion-icon {
   cursor: pointer;
 }
 
-img {
+.coverImage {
   transition: 0.3s ease-out;
   height: 100%;
 }
@@ -59,7 +59,7 @@ ion-icon {
   font-size: 25px;
 }
 
-img:hover {
+.coverImage:hover {
   transform: scale(1.2);
 }
 
@@ -80,12 +80,12 @@ ion-icon:hover {
   color: white;
 }
 
-p {
+nav > p {
   position: relative;
 }
 
 
-p::after {
+ nav > p::after {
   content: ' ';
 position: absolute;
  left: 0;
@@ -99,7 +99,7 @@ position: absolute;
   transform-origin: right;
 }
 
-p:hover::after {
+nav > p:hover::after {
   transform-origin: left;
   transform: scaleX(1);
 }
