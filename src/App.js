@@ -18,6 +18,7 @@ var images = {
 function App() {
   return (
     <div className="App">
+      <NAV/>
       <main>
       <h1>Animal Info</h1>
       <h2>Learn more about some of these animals!</h2>
