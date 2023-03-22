@@ -1,3 +1,4 @@
+import React from "react";
 import "./index.css";
 import {NAV} from './nav.js'
 import {bearContent} from './bear.js';

@@ -2,6 +2,7 @@ import React from "react";
 import './content.css';
 
 export function owlContent() {
+    return (
     <div className="information">
     <h2 style={{backgroundImage: 'url(https://images.unsplash.com/photo-1526409049865-5b0b188372f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80)', padding: '100px 0 100px 0', borderRadius: '10px', width: '60%', color: 'white'}}>The silent assasin</h2>
     <p className="text">Owls are a unique species of birds that have fascinated humans for centuries. These birds are known for their distinct features such as their large eyes, silent flight, and sharp talons. In this research report, we will delve into the fascinating world of owls and explore some of their most interesting characteristics.</p>
@@ -14,4 +15,5 @@ export function owlContent() {
     <h3>Threats to Owls</h3>
     <p className="text">Unfortunately, owls face many threats in the wild. One of the biggest threats is habitat loss, as humans continue to encroach on their natural habitats. Owls are also hunted for their feathers and body parts, which are used in traditional medicines. Climate change is also affecting owls, as their habitats are changing, and their prey is becoming scarce.</p>
 </div>
+    )
 }
