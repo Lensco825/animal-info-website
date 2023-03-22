@@ -4,6 +4,7 @@ import {bearContent} from './bear.js';
 import {owlContent} from './owl.js';
 import {dolphinContent} from './dolphin.js';
 import {catContent} from './cat.js';
+
 var images = {
   owl: 'https://images.unsplash.com/photo-1543549790-8b5f4a028cfb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
   bear: 'https://i.pinimg.com/736x/e6/a1/77/e6a17731d8ab49113dc4f1a61a2a0e8e.jpg',
@@ -16,7 +17,6 @@ var images = {
 function App() {
   return (
     <div className="App">
-      <NAV />
       <main>
       <h1>Animal Info</h1>
       <h2>Learn more about some of these animals!</h2>
@@ -29,7 +29,6 @@ function App() {
      <div className="cats"><img src={images.cat} alt='cat' className="coverImage"></img></div>
     </div>
     </main>
-    {dolphinContent()}
     </div>
   );
 }
