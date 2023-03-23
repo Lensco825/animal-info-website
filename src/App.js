@@ -26,7 +26,7 @@ function App() {
       <Route path="/bear" element={bearContent()} />
       <Route path="/cat" element={catContent()} />
       <Route path="/owl" element={owlContent()} />
-      <Route path="/dolphin" element={dolphinContent()} />
+      <Route path="/dol" element={dolphinContent()} />
       <Route path="/home" exact element={App} />
     </Routes>
       <h1>Animal Info</h1>
@@ -43,7 +43,7 @@ function App() {
       </Link>
       </div>
      <div className="dolphins">
-      <Link to="/dolphins">
+      <Link to="/dol">
       <img src={images.dolphin} alt='dolphin' className="coverImage"></img>
      </Link>
      </div>
