@@ -4,7 +4,7 @@ import './content.css';
 export function dolphinContent() {
     return (
     <div className="information">
-        <h2 style={{backgroundSize: 'cover', backgroundSize: 'cover', backgroundImage: 'url(https://images.unsplash.com/photo-1607153333879-c174d265f1d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80)', padding: '100px 0 100px 0', borderRadius: '10px', width: '60%', color: 'white'}}>The ballorenas of the Seas!</h2>
+        <h2 style={{backgroundSize: 'cover', backgroundImage: 'url(https://images.unsplash.com/photo-1607153333879-c174d265f1d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80)', padding: '100px 0 100px 0', borderRadius: '10px', width: '60%', color: 'white'}}>The ballorenas of the Seas!</h2>
         <p className="text">Mostly known for their acrobatic tricks out of the water, the dolphin is an amazing site to see in the ocean! They're marine mammals that belong to the family Delphinidae. They are known for their intelligence, social behavior, and playful nature. In this research report, we will explore the fascinating world of dolphins.</p>
         <h3>Physical Characteristics</h3>
         <p className="text">Dolphins are known for their sleek bodies, which are designed for efficient swimming. They have a streamlined shape, with a dorsal fin on their back and two pectoral fins on their sides. Dolphins can range in size from 4 to 30 feet, depending on the species. They use echolocation to navigate their environment and communicate with other dolphins.</p>
