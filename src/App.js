@@ -47,14 +47,13 @@ function App() {
      </div>
     </div>
     <Routes>
-      <Route path="/bear" element={bearContent} />
-      <Route path="/cat" element={catContent} />
-      <Route path="/owl" element={owlContent} />
-      <Route path="/dolphin" element={dolphinContent} />
+      <Route path="/bear" element={bearContent()} />
+      <Route path="/cat" element={catContent()} />
+      <Route path="/owl" element={owlContent()} />
+      <Route path="/dolphin" element={dolphinContent()} />
       <Route path="/" exact element={App} />
     </Routes>
     </main>
-    {bearContent()}
     </div>
   );
 }
