@@ -22,6 +22,13 @@ function App() {
     <div className="App">
       <NAV/>
       <main>
+    <Routes>
+      <Route path="/bear" element={bearContent()} />
+      <Route path="/cat" element={catContent()} />
+      <Route path="/owl" element={owlContent()} />
+      <Route path="/dolphin" element={dolphinContent()} />
+      <Route path="/home" exact element={App} />
+    </Routes>
       <h1>Animal Info</h1>
       <h2>Learn more about some of these animals!</h2>
     <div className="AnimalSelection">
@@ -46,13 +53,6 @@ function App() {
      </Link>
      </div>
     </div>
-    <Routes>
-      <Route path="/bear" element={bearContent()} />
-      <Route path="/cat" element={catContent()} />
-      <Route path="/owl" element={owlContent()} />
-      <Route path="/dolphin" element={dolphinContent()} />
-      <Route path="/" exact element={App} />
-    </Routes>
     </main>
     </div>
   );
