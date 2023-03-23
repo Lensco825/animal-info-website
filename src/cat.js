@@ -4,7 +4,7 @@ import './content.css';
 export function catContent() {
     return (
         <div className="information">
-        <h2 style={{backgroundImage: 'url(https://images.unsplash.com/photo-1568043210943-0e8aac4b9734?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)', padding: '100px 0 100px 0', borderRadius: '10px', width: '60%', color: 'white'}}>The Fascinating Felines</h2 >
+        <h2 style={{backgroundSize: 'cover', backgroundSize: 'cover', backgroundImage: 'url(https://images.unsplash.com/photo-1568043210943-0e8aac4b9734?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)', padding: '100px 0 100px 0', borderRadius: '10px', width: '60%', color: 'white'}}>The Fascinating Felines</h2 >
         <p className="text">Cats are one of the most popular pets in the world, and with good reason. They are fascinating creatures that have been around for thousands of years. In this research report, we will explore five different aspects of cats that make them truly unique and special.</p>
         <h3>Physical Characteristics</h3>
         <p className="text">Cats are known for their soft fur, sharp claws, and their ability to retract their claws. Unlike dogs, cats are obligate carnivores, which means that they need meat to survive. They have excellent hearing and vision, and their whiskers are highly sensitive, helping them navigate their environment. Cats are also known for their ability to jump great distances, as well as their agility and flexibility.</p>
