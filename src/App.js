@@ -2,6 +2,7 @@ import React from "react";
 import "./index.css";
 import {NAV} from './nav.js'
 import {bearContent} from './bear.js';
+import { Route, Routes } from "react-router-dom";
 
 var images = {
   owl: 'https://images.unsplash.com/photo-1543549790-8b5f4a028cfb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
@@ -27,6 +28,10 @@ function App() {
      <div className="dolphins"><img src={images.dolphin} alt='dolphin' className="coverImage"></img></div>
      <div className="cats"><img src={images.cat} alt='cat' className="coverImage"></img></div>
     </div>
+    <Routes>
+      <Route path="/bear" element={bearContent} />
+      <Route path="/" element={App} />
+    </Routes>
     </main>
     {bearContent()}
     </div>
