@@ -12,7 +12,7 @@ export function NAV() {
         <nav>
         <p><Link to="/home" style={linkStyle}>Home</Link></p>
         <p><Link to="/about" style={linkStyle}>About</Link></p>
-        <a href="https://github.com/Lensco825/animal-info-website"><ion-icon name="logo-github"></ion-icon></a>
+        <a style={linkStyle} href="https://github.com/Lensco825/animal-info-website"><ion-icon name="logo-github"></ion-icon></a>
       </nav>
     )
 }
