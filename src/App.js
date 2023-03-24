@@ -5,6 +5,7 @@ import {bearContent} from './bear.js';
 import {owlContent} from './owl.js';
 import { dolphinContent } from "./dolphin";
 import { catContent } from "./cat";
+import { About } from "./about";
 import { Route, Routes, Link} from "react-router-dom";
 
 
@@ -28,6 +29,7 @@ function App() {
       <Route path="/owl" element={owlContent()} />
       <Route path="/dol" element={dolphinContent()} />
       <Route path="/home" exact element={App} />
+      <Route path="/about" element={About()} />
     </Routes>
       <h1>Animal Info</h1>
       <h2>Learn more about some of these animals!</h2>
