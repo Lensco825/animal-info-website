@@ -132,3 +132,9 @@ a:visited {
   display: grid;
   place-items: center;
 }
+
+a {
+  text-decoration: underline;
+  text-decoration-color: #EDEBA0;
+  text-decoration-thickness: 5px;
+}
