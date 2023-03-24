@@ -107,3 +107,10 @@ nav > p:hover::after {
 a:visited {
   color: black;
 }
+
+@media (max-width: 1040px) {
+  .AnimalSelection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

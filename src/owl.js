@@ -4,7 +4,7 @@ import './content.css';
 export function owlContent() {
     return (
     <div className="information">
-    <h2 style={{backgroundSize: 'cover', backgroundImage: 'url(https://images.unsplash.com/photo-1526409049865-5b0b188372f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80)', padding: '100px 0 100px 0', borderRadius: '10px', width: '60%', color: 'white'}}>The silent assasin</h2>
+    <h2 style={{backgroundSize: 'cover', backgroundImage: 'url(https://images.unsplash.com/photo-1467811884194-ae868cd3f090?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)', padding: '100px 0 100px 0', borderRadius: '10px', width: '60%', color: 'white'}}>The silent assasin</h2>
     <p className="text">Owls are a unique species of birds that have fascinated humans for centuries. These birds are known for their distinct features such as their large eyes, silent flight, and sharp talons. In this research report, we will delve into the fascinating world of owls and explore some of their most interesting characteristics.</p>
     <h3>Physical Characteristics</h3>
     <p className="text">Owls come in various sizes, with the smallest species being the Elf Owl, which is about 5 inches tall, while the largest species is the Eurasian Eagle Owl, which can grow up to 30 inches tall. They have large heads with a flat face, and their eyes are forward-facing, which gives them excellent depth perception. Their wings are adapted for silent flight, which allows them to sneak up on their prey undetected. Owls also have sharp talons that are used to catch and kill their prey.</p>
