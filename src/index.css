@@ -32,6 +32,8 @@ align-items: center;
 .coverImage {
   object-fit: cover;
   min-width: 50px;
+  transition: 0.3s ease-out;
+  height: 100%;
   max-width: 300px;
 }
 
@@ -46,11 +48,6 @@ nav {
 
 nav > p, ion-icon {
   cursor: pointer;
-}
-
-.coverImage {
-  transition: 0.3s ease-out;
-  height: 100%;
 }
 
 ion-icon {
@@ -128,6 +125,7 @@ a:visited {
   }
 
 }
+
 
 
 .AnimalContainer {
