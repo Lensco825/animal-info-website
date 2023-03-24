@@ -21,8 +21,6 @@ align-items: center;
   height: 20rem;
   display: flex;
   gap: 10px;
-  margin-top: 20%;
-  margin-left: 10%;
 }
 
 .AnimalSelection > div {
@@ -112,5 +110,27 @@ a:visited {
   .AnimalSelection {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 6rem;
   }
+  .AnimalSelection > div {
+    height: 150%;
+  }
+}
+
+@media (max-width: 1040px) {
+  .AnimalSelection {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    width: 60%;
+    height: 60rem;
+    row-gap: 8rem;
+  }
+
+}
+
+
+.AnimalContainer {
+  display: grid;
+  place-items: center;
 }

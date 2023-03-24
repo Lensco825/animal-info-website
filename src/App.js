@@ -31,6 +31,7 @@ function App() {
       <Route path="/home" exact element={App} />
       <Route path="/about" element={About()} />
     </Routes>
+    <div className="AnimalContainer">
       <h1>Animal Info</h1>
       <h2>Learn more about some of these animals!</h2>
     <div className="AnimalSelection">
@@ -54,6 +55,7 @@ function App() {
       <img src={images.cat} alt='cat' className="coverImage"></img>
      </Link>
      </div>
+    </div>
     </div>
     </main>
     </div>
