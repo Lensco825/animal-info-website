@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 
 const linkStyle = {
-  textDecoration: 'none'
+  textDecoration: 'none',
   color: 'black'
 }
 
